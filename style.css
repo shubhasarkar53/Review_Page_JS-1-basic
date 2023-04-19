@@ -86,6 +86,7 @@ img{
 }
 .basic-details{
     margin: 1em;
+    text-align: center;
 }
 .person-name{
     font-weight: 500;
