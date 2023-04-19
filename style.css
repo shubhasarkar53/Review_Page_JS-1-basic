@@ -17,6 +17,12 @@
     width: 60%;
     margin: 0 auto;
 }
+@media(max-width:640px){
+    .container{
+        width: 100%;
+        border: 2px solid red;
+    }
+}
 .container h1{
     text-align: center;
     font-size: 3rem;
@@ -48,6 +54,11 @@
     margin-block: 2em;
     /* justify-content: center; */
 
+}
+@media(max-width:640px){
+    .person-details-container{
+        width: 90%;
+    }
 }
 .img-container{
     border: 3px solid  rgba(0, 182, 243, 0.495); 
@@ -119,6 +130,7 @@ img{
 }
 .random-btn{
     border: 2px solid  rgb(0, 182, 243) ;
+    text-align: center;
     font-size: 0.9rem;
     color:  rgb(0, 149, 199);
     padding: 0.5em 1em;
